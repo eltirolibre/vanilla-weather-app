@@ -25,6 +25,7 @@ li {
   font-weight: 100;
   line-height: 24px;
 }
+
 li:first-letter {
   text-transform: capitalize;
 }
@@ -61,4 +62,14 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -32px;
+}
+
+.weather-temp .active {
+  color: black;
+  cursor: default;
+}
+
+.weather-temp .active:hover {
+  cursor: default;
+  text-decoration: none;
 }
