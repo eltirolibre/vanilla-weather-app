@@ -2,14 +2,6 @@ body {
   font-family: "Google Sans", arial, sans-serif;
 }
 
-.app-border {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 6px;
-}
-
 h1 {
   color: black;
   display: block;
@@ -26,10 +18,44 @@ ul {
 
 li {
   list-style: none;
-  color: black;
+  color: #878787;
   margin: 0;
   padding: 0;
   font-size: 15px;
   font-weight: 100;
   line-height: 24px;
+}
+
+.app-wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+.app-border {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 6px;
+}
+
+.main-overview {
+  margin-bottom: 20px;
+}
+
+.weather-temp img {
+  margin-right: 5px;
+  height: 60px;
+  float: left;
+  vertical-align: top;
+  width: 60px;
+}
+
+.weather-temp strong {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.weather-temp .temp-units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
